@@ -1,0 +1,211 @@
+.body_register{    
+    background-image: url("../images/woodland.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+#wrap_logo_register{
+    width: 100%;
+    margin-top: 2em;
+    padding: 1em;
+}
+#wrap_logo_register:hover{
+    cursor: pointer;
+}
+#wrap_logo_register p{
+    text-align: center;
+    font-size: 3em;
+}
+.wonder_image_p{
+    color: black;
+}
+.wonder_image_p:hover{
+    color: white;
+}
+.wonder_image_a:hover{
+    text-decoration: none;
+}
+/* START FORM CSS */
+
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+html {
+    overflow-y: scroll; 
+}
+
+body {
+    background:body-bg;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+a {
+    text-decoration:none;
+    color:main;
+    transition:.5s ease;
+    &:hover {
+        color:main-dark;
+    }
+}
+.form {
+    background-color: white;
+    opacity: 0.9;
+    padding: 40px;
+    max-width:600px;
+    margin:40px auto;
+    border-radius:br;
+    box-shadow:0 4px 10px 4px rgba(form-bg,.3);
+}
+.tab {
+    list-style:none;
+    background-color: black;
+    opacity: 0.8;
+    padding:0;
+    margin:0 0 2em 0;
+    &:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+}
+.tab:hover{
+    background-color: white;
+}
+.tab-content > div:last-child {
+    display:none;
+}
+.to_login{
+    color: white;
+}
+.to_login:hover{
+    color: black;
+}
+h1 {
+    text-align:center;
+    color:white;
+    font-weight:thin;
+    margin:0 0 40px;
+}
+
+/* start placeholder */
+input[placeholder], [placeholder], *[placeholder] {
+    color: red !important;
+}
+*::-webkit-input-placeholder {
+    color: black;
+}
+*:-moz-placeholder {
+    /* FF 4-18 */
+    color: black;
+}
+*::-moz-placeholder {
+    /* FF 19+ */
+    color: black;
+}
+*:-ms-input-placeholder {
+    /* IE 10+ */
+    color: black;
+}
+/* end placeholder */
+
+input, textarea {
+    font-size:4em;
+    display:block;
+    width:100%;
+    height:100%;
+    padding:5px 10px;
+    background:none;
+    background-image:none;
+    border:1px solid gray-light;
+    color: white;
+    border-radius:0;
+    transition:border-color .25s ease, box-shadow .25s ease;
+    &:focus {
+        outline:0;
+        border-color:main;
+    }
+}
+
+textarea {
+    border:2px solid gray-light;
+    resize: vertical;
+}
+
+.field-wrap {
+    width: 100%;
+    position:relative;
+    margin-bottom:40px;
+}
+
+.top-row {
+    &:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+    > div {
+        float:left;
+        width:48%;
+        margin-right:4%;
+        &:last-child { 
+            margin:0;
+        }
+    }
+}
+
+.button {
+    border:0;
+    outline:none;
+    border-radius:0;
+    padding:15px 0;
+    font-size:2rem;
+    font-weight: bold;
+    text-transform:uppercase;
+    letter-spacing:.1em;
+    background-color: black;
+    color: white;
+    transition:all.5s ease;
+    -webkit-appearance: none;
+}
+.button:hover{
+    background-color: white;
+    color: black; 
+}
+.button-block {
+    display:block;
+    width:100%;
+}
+
+/* END FORM CSS */
+
+    /* Gallery css*/
+#body_gallery {
+                background: #222;
+                margin-top: 20px;
+            }
+
+            .name_gallery_h3 {
+                color: #eee;
+                font-family: Verdana;
+            }
+
+            .thumbnails img {
+                height: 180px;
+                border: 4px solid #555;
+                padding: 1px;
+                margin: 0 10px 10px 0;
+            }
+
+            .thumbnails img:hover {
+                border: 4px solid #00ccff;
+                cursor:pointer;
+            }
+
+            .preview img {
+                border: 4px solid #444;
+                padding: 1px;
+                width: 400px;
+            }
+            /* Gallery css*/

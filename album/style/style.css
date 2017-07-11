@@ -1,0 +1,186 @@
+.logo_image{
+    font-size: 1.6em;
+}
+#free_pictures{
+    background-image: url("../images/surf.jpg");
+    height: 16em;
+}
+.free_pictures_h2{
+    padding-top: 3em;
+    text-align: center;
+    color: white;
+}
+img{
+    max-width: 100%;
+}
+.best_pictures {
+    margin: 4em;
+    text-align: center;
+
+}
+.categories{
+    background-color: #b3ffff;
+    height: 55em;
+    margin-top: 2em;
+}
+.p_cate {
+    font: 4em Helvetica;
+    text-align: center;
+}
+.cat_images img{
+    border-radius: 50%;
+}
+
+/* START NAVIGATION */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+}
+li {
+    float: left;
+}
+.right_li{
+    float: right;
+}
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 1em;
+    text-decoration: none;
+}
+li a:hover {
+    text-decoration: none;
+    color: #666664;
+}
+/* END NAVIGATION */
+
+
+/* START IMAGES GALERIES */
+.add_image {
+    border: 1px solid #ccc;
+}
+.add_image:hover {
+    border: 1px solid #777;
+    cursor: pointer;
+}
+.add_image img {
+    width: 100%;
+    height: auto;
+}
+.description{
+    padding: 10px;
+    text-align: center;
+}
+* {
+    box-sizing: border-box;
+}
+.image_box {
+    margin-top: 2em;
+    padding: 0 5px;
+    height: 16em;
+    float: left;
+    width: 24.99999%;
+}
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+/* END IMAGES GALERIES */
+
+hr {
+    border-top: 4px double #8c8b8b;
+    text-align: center;
+}
+hr:after {
+    content: 'Think big, Dream bigger';
+    display: inline-block;
+    position: relative;
+    top: -15px;
+    padding: 0 10px;
+    background: #f0f0f0;
+    color: #8c8b8b;
+    font-size: 18px;
+}
+
+
+/* FOOTER START */
+footer{
+    background-color: #262626;
+    color:white;
+    text-align: center;
+    position: relative;
+    height: 4em;
+    top: 1em;
+    padding:1em;
+}
+footer:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+/* FOOTER END */
+
+@media only screen and (max-width: 700px){
+    .responsive {
+        width: 50%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 533px){
+    .responsive {
+        width: 100%;
+    }
+    li{
+        width: 100%;
+    }
+    .free_pictures_h2{
+        padding-top: 2.5em;
+        font-size: 2em;
+    }
+    .best_pictures{
+        display: none;
+    }
+    .categories{
+        height: 36em;
+    }
+    .cat_images img{
+        display: none;
+    }
+    .image_to_div{
+        width: 90%;
+        height: 4em;
+        margin-top: 1em;
+        margin-left: 5%;
+        display: block;
+    }
+    .image_to_div_p{
+        text-align: center;
+    }
+    .image_to_div_p:hover{
+        text-decoration: underline;
+        cursor: pointer;
+    }
+}
+
+@media only screen and (min-width: 534px){
+    .image_to_div_p{
+        visibility: hidden;
+    }
+}
+@media only screen and (max-width: 300px){
+    .p_cate{
+        width: 100%;
+        font-size: 1.5em;
+        text-align: center;
+    }
+    .categories{
+        height: 32em;
+    }
+}
+
+
